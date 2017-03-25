@@ -60,6 +60,7 @@ public class SaveHandler {
     public static final String EXPORTS = "exports";
     public static final String REMOTE = "remote";
     public static final String DEFAULT = "default";
+    public static final String QUESTS = "quests";
     private static final String QUESTING = "questing";
     private static final String HARDCORE = "hardcore";
 
