@@ -22,7 +22,7 @@ deploy:
   api_key: $token
   file_glob: true
   file:
-  - "build/libs/*.jar"
+  - "build/*"
   skip_cleanup: true
   on:
     branch: 
