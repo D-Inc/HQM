@@ -23,6 +23,7 @@ import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import org.apache.logging.log4j.Level;
+import net.minecraft.world.WorldServer;
 
 import java.io.File;
 import java.io.IOException;
