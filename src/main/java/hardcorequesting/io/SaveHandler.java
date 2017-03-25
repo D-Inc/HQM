@@ -71,7 +71,7 @@ public class SaveHandler {
     }
 
     public static File getLocalFile(String name) throws IOException {
-        File file = new File(new File(QuestLine.getActiveQuestLine().mainPath), name.endsWith(".txt") ? name : name + ".json");
+        File file = new File(new File(HardcoreQuesting.configDir, QUESTS), name.endsWith(".txt") ? name : name + ".json");
         if (!file.getParentFile().exists()) file.getParentFile().mkdirs();
         return file;
     }
@@ -97,7 +97,7 @@ public class SaveHandler {
     }
 
     public static File getLocalFolder() {
-        return new File(QuestLine.getActiveQuestLine().mainPath);
+        return new File(HardcoreQuesting.configDir, QUESTS);
     }
 
     public static File getRemoteFolder() {
